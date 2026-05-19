@@ -9,6 +9,7 @@ def main():
     df = pd.read_csv(SHEET_URL)
 
     df = df.rename(columns={
+        "Temperature (C)": "Temperature"
         "Dissolved Oxygen (mg/L)": "DO",
         "Salinity (ppt)": "Salinity",
         "Turbidity (NTU)": "Turbidity",
