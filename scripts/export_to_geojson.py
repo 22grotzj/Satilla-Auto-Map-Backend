@@ -16,6 +16,7 @@ def main():
 
     # Rename BEFORE merging
     df = df.rename(columns={
+        "Temperature (C)": "Temperature"
         "Dissolved Oxygen (mg/L)": "DO",
         "Salinity (ppt)": "Salinity",
         "Turbidity (NTU)": "Turbidity",
